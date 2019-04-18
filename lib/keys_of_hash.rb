@@ -13,4 +13,4 @@ class Hash
 end
 
 h = {"sugar glider"=>"Australia","aye-aye"=> "Madagascar"}
-h.keys_of("Australia","Madagascar")
+puts h.keys_of("Australia","Madagascar")
