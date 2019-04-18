@@ -6,6 +6,7 @@ class Hash
     binding.pry
     arguments.each do |val|
       keys << self.key(val)
+      binding.pry
     end
     keys
   end
