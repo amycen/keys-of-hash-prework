@@ -3,7 +3,7 @@ class Hash
     # code goes here
     keys = []
     arguments.each do |val|
-      keys << Hash.key(val)
+      keys << Hash.has_key?(val)
     end
     keys
   end
