@@ -10,3 +10,6 @@ class Hash
     keys
   end
 end
+
+h = {"sugar glider"=>"Australia","aye-aye"=> "Madagascar"}
+h.keys_of("Australia","Madagascar")
